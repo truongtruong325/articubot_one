@@ -1,0 +1,49 @@
+[0.031s] Invoking command in '/home/ubuntu/dev_ws/src/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/ubuntu/dev_ws/src/my_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/dev_ws/src/install/my_package
+[0.143s] -- The C compiler identification is GNU 11.4.0
+[0.261s] -- The CXX compiler identification is GNU 11.4.0
+[0.275s] -- Detecting C compiler ABI info
+[0.377s] -- Detecting C compiler ABI info - done
+[0.389s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.389s] -- Detecting C compile features
+[0.390s] -- Detecting C compile features - done
+[0.394s] -- Detecting CXX compiler ABI info
+[0.512s] -- Detecting CXX compiler ABI info - done
+[0.527s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.527s] -- Detecting CXX compile features
+[0.528s] -- Detecting CXX compile features - done
+[0.533s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.790s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.884s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.919s] -- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[1.004s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.004s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.005s] -- Added test 'lint_cmake' to check CMake code style
+[1.006s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.009s] -- Added test 'xmllint' to check XML markup files
+[1.010s] -- Configuring done
+[1.012s] -- Generating done
+[1.012s] -- Build files have been written to: /home/ubuntu/dev_ws/src/build/my_package
+[1.017s] Invoked command in '/home/ubuntu/dev_ws/src/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/ubuntu/dev_ws/src/my_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/dev_ws/src/install/my_package
+[1.018s] Invoking command in '/home/ubuntu/dev_ws/src/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/ubuntu/dev_ws/src/build/my_package -- -j12 -l12
+[1.042s] Invoked command in '/home/ubuntu/dev_ws/src/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/ubuntu/dev_ws/src/build/my_package -- -j12 -l12
+[1.062s] Invoking command in '/home/ubuntu/dev_ws/src/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/ubuntu/dev_ws/src/build/my_package
+[1.067s] -- Install configuration: ""
+[1.067s] -- Execute custom install script
+[1.067s] -- Symlinking: /home/ubuntu/dev_ws/src/install/my_package/share/my_package/launch/listener.launch.py
+[1.073s] -- Symlinking: /home/ubuntu/dev_ws/src/install/my_package/share/my_package/launch/talker.launch.py
+[1.079s] -- Symlinking: /home/ubuntu/dev_ws/src/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[1.084s] -- Symlinking: /home/ubuntu/dev_ws/src/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[1.095s] -- Symlinking: /home/ubuntu/dev_ws/src/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[1.107s] -- Symlinking: /home/ubuntu/dev_ws/src/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[1.119s] -- Symlinking: /home/ubuntu/dev_ws/src/install/my_package/share/my_package/environment/path.sh
+[1.131s] -- Symlinking: /home/ubuntu/dev_ws/src/install/my_package/share/my_package/environment/path.dsv
+[1.143s] -- Symlinking: /home/ubuntu/dev_ws/src/install/my_package/share/my_package/local_setup.bash
+[1.155s] -- Symlinking: /home/ubuntu/dev_ws/src/install/my_package/share/my_package/local_setup.sh
+[1.167s] -- Symlinking: /home/ubuntu/dev_ws/src/install/my_package/share/my_package/local_setup.zsh
+[1.179s] -- Symlinking: /home/ubuntu/dev_ws/src/install/my_package/share/my_package/local_setup.dsv
+[1.191s] -- Symlinking: /home/ubuntu/dev_ws/src/install/my_package/share/my_package/package.dsv
+[1.203s] -- Symlinking: /home/ubuntu/dev_ws/src/install/my_package/share/ament_index/resource_index/packages/my_package
+[1.216s] -- Symlinking: /home/ubuntu/dev_ws/src/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[1.228s] -- Symlinking: /home/ubuntu/dev_ws/src/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[1.240s] -- Symlinking: /home/ubuntu/dev_ws/src/install/my_package/share/my_package/package.xml
+[1.256s] Invoked command in '/home/ubuntu/dev_ws/src/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/ubuntu/dev_ws/src/build/my_package
